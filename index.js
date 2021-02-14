@@ -14,7 +14,7 @@ randomNumber2=Math.floor(randomNumber2*6)+1;
 var randomDiceImage2="dice"+randomNumber2+".png"
 var randomDiceImagesSource2="images/"+randomDiceImage2;
 var  image2=document.querySelectorAll("img")[1];
-image1.setAttribute("src",randomDiceImagesSource2);
+image2.setAttribute("src",randomDiceImagesSource2);
 
 if(randomNumber1>randomNumber2){
     document.querySelector("h1").innerHTML="🚩 Player 1 win!"
